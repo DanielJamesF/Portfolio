@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    min-width: 100%;
+    height: 87px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: fixed;
+}
+
+#logo {
+    width: 5.5em;
+    height: 5.4em;
+    margin-right: auto;
+}
+
+main {
+    min-width: 80vw;
+    min-height: 80vh;
+    height: 100%;
+    border: 1px solid grey;
+}
+
+ul {
+    display: inline-flex;
+    word-spacing: 10px;
+    margin-right: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 9px;
+    letter-spacing: 6px;
+    font-size: larger;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+#land {
+    text-align: center;
+    background-image: url(../Images/Mob.png);
+    height: 800px
+
+}
+
+section {
+    height: 600px;
+    width: 100%;
+    background-color: grey;
+    border: 1px solid black;;
+}
+
+h1 {
+    background-color: black;
+    color: brown;
+    margin-top: 300px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: large;
+}
+
+h4 {
+    text-align: center;
+    background-color: black;
+    border: 2px solid white;
+    font-size: x-large;
+    margin-top: 50px;
+}
+ h5 {
+     font-size: x-large;
+     text-decoration: underline;
+     padding-bottom: 10px;
+ }
+
+p {
+    background-color: black;
+    color: brown;
+    text-align: center;
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#about > p {
+    margin-top: 150px;
+    padding: 50px;
+    border: 2px solid white;
+}
+
+#resume {
+    color: brown;
+    text-align: center;
+}
+
+#resume > ol {
+    border: 2px solid white;
+    background-color: black;
+    margin-top: 150px;
+}
+
+#projects {
+
+}
+
+#contact {
+    text-align: center;
+    color: brown;
+}
+
+#contact > form {
+    border: 2px solid white;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+#contact > div > ol {
+    margin-top: 60px;
+    font-size: small;
+    border: 2px solid  white;
+    background-color: black;
+}
+
+label {
+    display: inline-block;
+    width:100px;
+    text-align: right;
+}
