@@ -5,9 +5,23 @@
 
 header, footer {
     min-width: 100%;
-    height: 87px;
+    height: 100px;
     background-color: black;
     border: 1px solid white;
+}
+
+#logo {
+    width: 6.3em;
+    height: 6.3em;
+    margin-right: auto;
+    display: block;
+    transition: transform 2s ease-in-out;
+}
+
+#logo:hover {
+    transform: scale(2) perspective(5px);
+    transform: rotate(360deg);
+    filter: grayscale(100%);
 }
 
 
@@ -18,10 +32,8 @@ header {
     position: fixed;
 }
 
-#logo {
-    width: 5.5em;
-    height: 5.4em;
-    margin-right: auto;
+footer {
+    color: white;
 }
 
 main {
@@ -29,6 +41,19 @@ main {
     min-height: 80vh;
     height: 100%;
     border: 1px solid grey;
+}
+
+#container {
+    width: 40vw;
+    height: 50vw;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#container img {
+    width: 15em;
+    height: 20em;
 }
 
 ul {
@@ -91,12 +116,14 @@ h4 {
     background-color: black;
     border: 2px solid white;
     font-size: x-large;
-    margin-top: 50px;
+    margin-top: 150px;
 }
- h5 {
+
+h5 {
      font-size: x-large;
      text-decoration: underline;
      padding-bottom: 10px;
+     text-align: center;
  }
 
 p {
@@ -104,46 +131,70 @@ p {
     color: brown;
     text-align: center;
     font-size: large;
-    margin-left: 20px;
-    margin-right: 20px;
+}
+
+#about {
+    height: 700px;
+    background-color: darkslateblue;
+}
+
+#about > h5 {
+    background-color: black;
+    border: 2px solid white;
+    color: brown;
+    margin-top: 60px;
 }
 
 #about > p {
-    margin-top: 150px;
-    padding: 50px;
     border: 2px solid white;
+    padding: 20px;
 }
 
 #resume {
+    height: 800px;
     color: brown;
     text-align: center;
+    background-color: darkolivegreen;
 }
 
-#resume > ol {
+#resume > ol > li {
     border: 2px solid white;
     background-color: black;
-    margin-top: 150px;
+    padding: 50px;
 }
 
 #projects {
+    text-align: center;
+    background-color: darksalmon;
+}
 
+#projects > div {
+    border: 2px solid white;
+    background-color: black;
+    padding: 50px;
+    margin-top: 40px;
 }
 
 #contact {
     text-align: center;
     color: brown;
+    background-color: darkgoldenrod;
 }
 
 #contact > form {
     border: 2px solid white;
     background-color: black;
     text-align: center;
-    padding: 50px;
-    margin-top: 20px;
+    font-size: x-large;
+}
+
+#contact > h5 {
+    border: 2px solid white;
+    background-color: black;
+    margin-top: 80px;
 }
 
 #contact > div > ol {
-    margin-top: 60px;
     font-size: small;
     border: 2px solid  white;
     background-color: black;
@@ -151,6 +202,6 @@ p {
 
 label {
     display: inline-block;
-    width:100px;
+    width:150px;
     text-align: right;
 }
