@@ -30,6 +30,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     position: fixed;
+    z-index: 10;
 }
 
 footer {
@@ -54,6 +55,8 @@ main {
 #container img {
     width: 15em;
     height: 20em;
+    display: inline-block;
+    border: 2px solid grey;
 }
 
 ul {
@@ -134,7 +137,7 @@ p {
 }
 
 #about {
-    height: 700px;
+    height: 1200px;
     background-color: darkslateblue;
 }
 
