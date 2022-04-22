@@ -8,6 +8,7 @@ header, footer {
     height: 100px;
     background-color: black;
     border: 1px solid white;
+    overflow: hidden;
 }
 
 #logo {
@@ -41,18 +42,18 @@ main {
     min-width: 80vw;
     min-height: 80vh;
     height: 100%;
-    border: 1px solid grey;
+    border: 2px solid grey;
 }
 
 #container {
-    width: 40vw;
-    height: 50vw;
-    margin: 20px auto;
     overflow: hidden;
     position: relative;
+    float: right;
 }
 
 #container img {
+    margin-right: auto;
+    margin-left: auto;
     width: 15em;
     height: 20em;
     display: inline-block;
@@ -84,8 +85,8 @@ a:hover {
 #land {
     text-align: center;
     background-image: url(../Images/Mob.png);
-    height: 800px
-
+    height: 800px;
+    font-size: xx-large;
 }
 
 section {
@@ -137,8 +138,8 @@ p {
 }
 
 #about {
-    height: 1200px;
-    background-color: darkslateblue;
+    height: 800px;
+    background-color: darkolivegreen;
 }
 
 #about > h5 {
@@ -153,11 +154,15 @@ p {
     padding: 20px;
 }
 
+#about #skills {
+    margin-top: 100px;
+}
+
 #resume {
     height: 800px;
     color: brown;
     text-align: center;
-    background-color: darkolivegreen;
+    background-color: darkslategrey;
 }
 
 #resume > ol > li {
